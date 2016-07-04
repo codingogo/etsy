@@ -17,7 +17,6 @@ gem 'fog'
 gem 'figaro'
 gem 'devise'
 gem 'stripe'
-gem 'mini_magick'
 
 group :production do
 	gem 'pg'
