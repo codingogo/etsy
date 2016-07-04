@@ -26,12 +26,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'carrierwave'
-gem 'fog'
+gem 'fog', '~> 1.24'
 gem 'figaro'
 gem 'devise'
 gem 'stripe'
 gem 'rails_12factor'
-gem 'aws-sdk', '~> 1.61.0'
+# gem 'aws-sdk', '~> 1.61.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
