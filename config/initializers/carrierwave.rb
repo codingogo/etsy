@@ -3,7 +3,7 @@ CarrierWave.configure do |config|
     :provider => 'AWS',
     :aws_access_key_id => ENV['aws_access_key_id'],
     :aws_secret_access_key => ENV['aws_secret_access_key'],
-    :region  => 'us-east-1'
+    :region  => 'ap-northeast-2'
   }
   config.fog_directory = ENV['fog_directory']
 end
