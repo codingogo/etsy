@@ -1,0 +1,20 @@
+current directory: /Users/gafrong/Tutorial/etsy-app/vendor/bundle/ruby/2.0.0/gems/byebug-9.0.4/ext/byebug
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20160605-6138-7yvor7.rb extconf.rb
+creating Makefile
+
+current directory: /Users/gafrong/Tutorial/etsy-app/vendor/bundle/ruby/2.0.0/gems/byebug-9.0.4/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/gafrong/Tutorial/etsy-app/vendor/bundle/ruby/2.0.0/gems/byebug-9.0.4/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/gafrong/Tutorial/etsy-app/vendor/bundle/ruby/2.0.0/gems/byebug-9.0.4/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20160605-6138-v72hl8/byebug
+installing default byebug libraries
