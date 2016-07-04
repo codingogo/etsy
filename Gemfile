@@ -26,7 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'carrierwave'
-gem 'fog'
+gem "fog", '1.24.0'
 gem 'figaro'
 gem 'devise'
 gem 'stripe'
