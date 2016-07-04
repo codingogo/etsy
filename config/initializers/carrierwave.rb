@@ -5,5 +5,5 @@ CarrierWave.configure do |config|
     :aws_secret_access_key => ENV['aws_secret_access_key'],
     :region  => 'ap-northeast-2'
   }
-  config.fog_directory = ENV['fog_directory']
+  config.fog_directory = 'etsy-test'
 end
