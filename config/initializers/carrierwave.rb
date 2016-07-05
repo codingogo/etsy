@@ -3,7 +3,7 @@ CarrierWave.configure do |config|
     :provider 								=> 'AWS',
     :aws_access_key_id 				=> ENV['aws_access_key_id'],
     :aws_secret_access_key 		=> ENV['aws_secret_access_key'],
-    :region  									=> 'ap-northeast-2'
+    :region										=> 'ap-northeast-2'
   }
-  config.fog_directory = 'etsyapplication'
+  config.fog_directory = 'etsy-application'
 end
